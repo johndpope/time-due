@@ -13,6 +13,8 @@
 		1DDEBEEC19A74B510086F623 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DDEBEEB19A74B510086F623 /* Images.xcassets */; };
 		1DDEBEEF19A74B510086F623 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDEBEED19A74B510086F623 /* MainMenu.xib */; };
 		1DDEBEFB19A74B510086F623 /* TimeDueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDEBEFA19A74B510086F623 /* TimeDueTests.swift */; };
+		1DDEBF0619A74B800086F623 /* ABOUT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1DDEBF0419A74B800086F623 /* ABOUT.txt */; };
+		1DDEBF0719A74B800086F623 /* CHANGELOG.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1DDEBF0519A74B800086F623 /* CHANGELOG.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		1DDEBEF419A74B510086F623 /* TimeDueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeDueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DDEBEF919A74B510086F623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DDEBEFA19A74B510086F623 /* TimeDueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDueTests.swift; sourceTree = "<group>"; };
+		1DDEBF0419A74B800086F623 /* ABOUT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ABOUT.txt; sourceTree = "<group>"; };
+		1DDEBF0519A74B800086F623 /* CHANGELOG.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		1DDEBEE119A74B510086F623 /* TimeDue */ = {
 			isa = PBXGroup;
 			children = (
+				1DDEBF0419A74B800086F623 /* ABOUT.txt */,
+				1DDEBF0519A74B800086F623 /* CHANGELOG.txt */,
 				1DDEBEE619A74B510086F623 /* AppDelegate.swift */,
 				1DDEBEEB19A74B510086F623 /* Images.xcassets */,
 				1DDEBEED19A74B510086F623 /* MainMenu.xib */,
@@ -193,7 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DDEBEEC19A74B510086F623 /* Images.xcassets in Resources */,
+				1DDEBF0619A74B800086F623 /* ABOUT.txt in Resources */,
 				1DDEBEEF19A74B510086F623 /* MainMenu.xib in Resources */,
+				1DDEBF0719A74B800086F623 /* CHANGELOG.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

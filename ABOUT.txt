@@ -1,0 +1,23 @@
+This project should contain following things to handle swift completely in LIVE projects.
+
+- A continuous & automatic corousel on introduction view
+- Facebook/Twitter/Google+ Login (yes all 3) with latest SDK's
+- Push Notifications
+- iBeacons
+- An SignUp form
+- LeftNet Networking library marriage with swift project
+- Lots of API Calls.
+- Core Data Managed objects
+- Watch Video on MPMedia Player
+- Maps
+- Google Admob
+- FetchResults controller
+- StotyBoards Ipad/Iphone app
+- Use size classes whatever they are
+
+CONTENT
+=======
+
+Can choose from here http://www.programmableweb.com/category
+
+
