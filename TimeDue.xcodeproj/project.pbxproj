@@ -16,6 +16,7 @@
 		1DDEBF0619A74B800086F623 /* ABOUT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1DDEBF0419A74B800086F623 /* ABOUT.txt */; };
 		1DDEBF0719A74B800086F623 /* CHANGELOG.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1DDEBF0519A74B800086F623 /* CHANGELOG.txt */; };
 		1DDEBF0A19A763330086F623 /* TDAppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDEBF0919A763330086F623 /* TDAppConstant.swift */; };
+		1DDEBF3C19A7766F0086F623 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DDEBF3B19A7766F0086F623 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		1DDEBF0419A74B800086F623 /* ABOUT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ABOUT.txt; sourceTree = "<group>"; };
 		1DDEBF0519A74B800086F623 /* CHANGELOG.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.txt; sourceTree = "<group>"; };
 		1DDEBF0919A763330086F623 /* TDAppConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TDAppConstant.swift; path = Classes/Other/TDAppConstant.swift; sourceTree = "<group>"; };
+		1DDEBF3B19A7766F0086F623 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DDEBF3C19A7766F0086F623 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				1DDEBEE119A74B510086F623 /* TimeDue */,
+				1DDEBF3A19A776580086F623 /* Frameworks */,
 				1DDEBEF719A74B510086F623 /* TimeDueTests */,
 				1DDEBEE019A74B510086F623 /* Products */,
 			);
@@ -83,13 +87,14 @@
 		1DDEBEE119A74B510086F623 /* TimeDue */ = {
 			isa = PBXGroup;
 			children = (
-				1DDEBF0819A7628F0086F623 /* Other */,
 				1DDEBF0419A74B800086F623 /* ABOUT.txt */,
 				1DDEBF0519A74B800086F623 /* CHANGELOG.txt */,
 				1DDEBEE619A74B510086F623 /* TDAppDelegate.swift */,
 				1DDEBEEB19A74B510086F623 /* Images.xcassets */,
 				1DDEBEED19A74B510086F623 /* MainMenu.xib */,
 				1DDEBEE819A74B510086F623 /* TimeDue.xcdatamodeld */,
+				1DDEBF0B19A774F00086F623 /* ThirdParty */,
+				1DDEBF0819A7628F0086F623 /* Other */,
 				1DDEBEE219A74B510086F623 /* Supporting Files */,
 			);
 			path = TimeDue;
@@ -127,6 +132,21 @@
 				1DDEBF0919A763330086F623 /* TDAppConstant.swift */,
 			);
 			name = Other;
+			sourceTree = "<group>";
+		};
+		1DDEBF0B19A774F00086F623 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		1DDEBF3A19A776580086F623 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DDEBF3B19A7766F0086F623 /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
