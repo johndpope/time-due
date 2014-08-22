@@ -1,2 +1,24 @@
-TimeDue
-=======
+TimeDue (TO-DO List)
+====================
+
+TimeDue is a very simple OSX app for users to add time related tasks.
+
+v1.0
+- Take task from user.
+- Add manually time for the task.
+- Start track automatically for the task
+- User can pause and stop the task. Can play again.
+- Mark it as completed
+- Delete a task.
+- Associate user with its basecamp login OAuth 2.0
+- Can view tasks for dates by changing the dates in calender. Support upto older 1 month tasks.
+- Can add notes with each task.
+- Show list of projects from basecamp user.
+- User Can add task inside any project or random tasks too.
+- Recording time on "Start Tracking" for a task.
+- Can edit the time and other details of task.
+
+v2.0
+- Upload the task to basecamp time tracking sheet automatically on tagged completed from user.
+- Can dawnload data in form of an excel or pdf sheet.
+- Share the tasks data on email.
