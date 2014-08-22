@@ -1,4 +1,4 @@
-Time Due
-========
+TimeDue
+=======
 
 This is an OSX project for keeping time tracks.
