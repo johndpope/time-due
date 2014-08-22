@@ -1,5 +1,5 @@
 //
-//  AppDelegate.swift
+//  TDAppDelegate.swift
 //  TimeDue
 //
 //  Created by Vikas on 22/08/14.
@@ -8,10 +8,9 @@
 
 import Cocoa
 
-class AppDelegate: NSObject, NSApplicationDelegate {
+class TDAppDelegate: NSObject, NSApplicationDelegate {
                             
     @IBOutlet weak var window: NSWindow!
-
 
     func applicationDidFinishLaunching(aNotification: NSNotification?) {
         // Insert code here to initialize your application
@@ -156,6 +155,5 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // If we got here, it is time to quit.
         return .TerminateNow
     }
-
 }
 
