@@ -1,1 +1,4 @@
 
+[submodule "TimeDue/ThirdPary/AFNetworking"]
+	path = TimeDue/ThirdPary/AFNetworking
+	url = https://github.com/AFNetworking/AFNetworking.git
