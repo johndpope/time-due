@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDEBEE519A74B510086F623 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDEBEE419A74B510086F623 /* main.swift */; };
+		1DDEBEE719A74B510086F623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDEBEE619A74B510086F623 /* AppDelegate.swift */; };
+		1DDEBEEA19A74B510086F623 /* TimeDue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DDEBEE819A74B510086F623 /* TimeDue.xcdatamodeld */; };
+		1DDEBEEC19A74B510086F623 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DDEBEEB19A74B510086F623 /* Images.xcassets */; };
+		1DDEBEEF19A74B510086F623 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDEBEED19A74B510086F623 /* MainMenu.xib */; };
+		1DDEBEFB19A74B510086F623 /* TimeDueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDEBEFA19A74B510086F623 /* TimeDueTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DDEBEF519A74B510086F623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DDEBED719A74B510086F623 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DDEBEDE19A74B510086F623;
+			remoteInfo = TimeDue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DDEBEDF19A74B510086F623 /* TimeDue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeDue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DDEBEE319A74B510086F623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DDEBEE419A74B510086F623 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1DDEBEE619A74B510086F623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DDEBEE919A74B510086F623 /* TimeDue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeDue.xcdatamodel; sourceTree = "<group>"; };
+		1DDEBEEB19A74B510086F623 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1DDEBEEE19A74B510086F623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1DDEBEF419A74B510086F623 /* TimeDueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeDueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DDEBEF919A74B510086F623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DDEBEFA19A74B510086F623 /* TimeDueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDueTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DDEBEDC19A74B510086F623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DDEBEF119A74B510086F623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DDEBED619A74B510086F623 = {
+			isa = PBXGroup;
+			children = (
+				1DDEBEE119A74B510086F623 /* TimeDue */,
+				1DDEBEF719A74B510086F623 /* TimeDueTests */,
+				1DDEBEE019A74B510086F623 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DDEBEE019A74B510086F623 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DDEBEDF19A74B510086F623 /* TimeDue.app */,
+				1DDEBEF419A74B510086F623 /* TimeDueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DDEBEE119A74B510086F623 /* TimeDue */ = {
+			isa = PBXGroup;
+			children = (
+				1DDEBEE619A74B510086F623 /* AppDelegate.swift */,
+				1DDEBEEB19A74B510086F623 /* Images.xcassets */,
+				1DDEBEED19A74B510086F623 /* MainMenu.xib */,
+				1DDEBEE819A74B510086F623 /* TimeDue.xcdatamodeld */,
+				1DDEBEE219A74B510086F623 /* Supporting Files */,
+			);
+			path = TimeDue;
+			sourceTree = "<group>";
+		};
+		1DDEBEE219A74B510086F623 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DDEBEE319A74B510086F623 /* Info.plist */,
+				1DDEBEE419A74B510086F623 /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DDEBEF719A74B510086F623 /* TimeDueTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DDEBEFA19A74B510086F623 /* TimeDueTests.swift */,
+				1DDEBEF819A74B510086F623 /* Supporting Files */,
+			);
+			path = TimeDueTests;
+			sourceTree = "<group>";
+		};
+		1DDEBEF819A74B510086F623 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DDEBEF919A74B510086F623 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DDEBEDE19A74B510086F623 /* TimeDue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DDEBEFE19A74B510086F623 /* Build configuration list for PBXNativeTarget "TimeDue" */;
+			buildPhases = (
+				1DDEBEDB19A74B510086F623 /* Sources */,
+				1DDEBEDC19A74B510086F623 /* Frameworks */,
+				1DDEBEDD19A74B510086F623 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeDue;
+			productName = TimeDue;
+			productReference = 1DDEBEDF19A74B510086F623 /* TimeDue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DDEBEF319A74B510086F623 /* TimeDueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DDEBF0119A74B510086F623 /* Build configuration list for PBXNativeTarget "TimeDueTests" */;
+			buildPhases = (
+				1DDEBEF019A74B510086F623 /* Sources */,
+				1DDEBEF119A74B510086F623 /* Frameworks */,
+				1DDEBEF219A74B510086F623 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DDEBEF619A74B510086F623 /* PBXTargetDependency */,
+			);
+			name = TimeDueTests;
+			productName = TimeDueTests;
+			productReference = 1DDEBEF419A74B510086F623 /* TimeDueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DDEBED719A74B510086F623 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = LeftShift;
+				TargetAttributes = {
+					1DDEBEDE19A74B510086F623 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					1DDEBEF319A74B510086F623 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 1DDEBEDE19A74B510086F623;
+					};
+				};
+			};
+			buildConfigurationList = 1DDEBEDA19A74B510086F623 /* Build configuration list for PBXProject "TimeDue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DDEBED619A74B510086F623;
+			productRefGroup = 1DDEBEE019A74B510086F623 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DDEBEDE19A74B510086F623 /* TimeDue */,
+				1DDEBEF319A74B510086F623 /* TimeDueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DDEBEDD19A74B510086F623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDEBEEC19A74B510086F623 /* Images.xcassets in Resources */,
+				1DDEBEEF19A74B510086F623 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DDEBEF219A74B510086F623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DDEBEDB19A74B510086F623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDEBEEA19A74B510086F623 /* TimeDue.xcdatamodeld in Sources */,
+				1DDEBEE719A74B510086F623 /* AppDelegate.swift in Sources */,
+				1DDEBEE519A74B510086F623 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DDEBEF019A74B510086F623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDEBEFB19A74B510086F623 /* TimeDueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DDEBEF619A74B510086F623 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DDEBEDE19A74B510086F623 /* TimeDue */;
+			targetProxy = 1DDEBEF519A74B510086F623 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DDEBEED19A74B510086F623 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDEBEEE19A74B510086F623 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DDEBEFC19A74B510086F623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DDEBEFD19A74B510086F623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1DDEBEFF19A74B510086F623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TimeDue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DDEBF0019A74B510086F623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TimeDue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1DDEBF0219A74B510086F623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TimeDueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeDue.app/Contents/MacOS/TimeDue";
+			};
+			name = Debug;
+		};
+		1DDEBF0319A74B510086F623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TimeDueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeDue.app/Contents/MacOS/TimeDue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DDEBEDA19A74B510086F623 /* Build configuration list for PBXProject "TimeDue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DDEBEFC19A74B510086F623 /* Debug */,
+				1DDEBEFD19A74B510086F623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DDEBEFE19A74B510086F623 /* Build configuration list for PBXNativeTarget "TimeDue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DDEBEFF19A74B510086F623 /* Debug */,
+				1DDEBF0019A74B510086F623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1DDEBF0119A74B510086F623 /* Build configuration list for PBXNativeTarget "TimeDueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DDEBF0219A74B510086F623 /* Debug */,
+				1DDEBF0319A74B510086F623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1DDEBEE819A74B510086F623 /* TimeDue.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1DDEBEE919A74B510086F623 /* TimeDue.xcdatamodel */,
+			);
+			currentVersion = 1DDEBEE919A74B510086F623 /* TimeDue.xcdatamodel */;
+			path = TimeDue.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1DDEBED719A74B510086F623 /* Project object */;
+}
