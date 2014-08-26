@@ -2,3 +2,6 @@
 [submodule "TimeDue/ThirdPary/AFNetworking"]
 	path = TimeDue/ThirdPary/AFNetworking
 	url = https://github.com/AFNetworking/AFNetworking.git
+[submodule "TimeDue/ThirdPary/Alamofire"]
+	path = TimeDue/ThirdPary/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git

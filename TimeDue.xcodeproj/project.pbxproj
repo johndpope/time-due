@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D6E627F19AC7FFE004C29BC /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E627E19AC7FFE004C29BC /* Alamofire.swift */; };
+		1D6E628819AC858F004C29BC /* TDLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E628619AC858F004C29BC /* TDLoginController.swift */; };
+		1D6E628919AC858F004C29BC /* TDLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6E628719AC858F004C29BC /* TDLoginController.xib */; };
+		1D6E629319AC917F004C29BC /* TDAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E629219AC917F004C29BC /* TDAppController.swift */; };
 		1DDEBEE519A74B510086F623 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDEBEE419A74B510086F623 /* main.swift */; };
 		1DDEBEE719A74B510086F623 /* TDAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDEBEE619A74B510086F623 /* TDAppDelegate.swift */; };
 		1DDEBEEA19A74B510086F623 /* TimeDue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DDEBEE819A74B510086F623 /* TimeDue.xcdatamodeld */; };
@@ -39,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D6E627E19AC7FFE004C29BC /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = ThirdPary/Alamofire/Source/Alamofire.swift; sourceTree = "<group>"; };
+		1D6E628219AC80A2004C29BC /* Alamofire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Alamofire.h; path = ThirdPary/Alamofire/Source/Alamofire.h; sourceTree = "<group>"; };
+		1D6E628619AC858F004C29BC /* TDLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TDLoginController.swift; path = Classes/Controllers/TDLoginController.swift; sourceTree = "<group>"; };
+		1D6E628719AC858F004C29BC /* TDLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TDLoginController.xib; path = Classes/Controllers/TDLoginController.xib; sourceTree = "<group>"; };
+		1D6E629219AC917F004C29BC /* TDAppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TDAppController.swift; path = Classes/Controllers/TDAppController.swift; sourceTree = "<group>"; };
 		1DDEBEDF19A74B510086F623 /* TimeDue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeDue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DDEBEE319A74B510086F623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DDEBEE419A74B510086F623 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -94,6 +103,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D6E628319AC82A4004C29BC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D6E629219AC917F004C29BC /* TDAppController.swift */,
+				1D6E628619AC858F004C29BC /* TDLoginController.swift */,
+				1D6E628719AC858F004C29BC /* TDLoginController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		1DDEBED619A74B510086F623 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +141,7 @@
 				1DDEBEEB19A74B510086F623 /* Images.xcassets */,
 				1DDEBEED19A74B510086F623 /* MainMenu.xib */,
 				1DDEBEE819A74B510086F623 /* TimeDue.xcdatamodeld */,
+				1D6E628319AC82A4004C29BC /* Controllers */,
 				1DDEBF5D19A77B720086F623 /* API */,
 				1DDEBF0B19A774F00086F623 /* ThirdParty */,
 				1DDEBF0819A7628F0086F623 /* Other */,
@@ -168,6 +188,8 @@
 		1DDEBF0B19A774F00086F623 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				1D6E628219AC80A2004C29BC /* Alamofire.h */,
+				1D6E627E19AC7FFE004C29BC /* Alamofire.swift */,
 				1DDEBF3F19A77A1E0086F623 /* AFNetworking */,
 			);
 			name = ThirdParty;
@@ -300,6 +322,7 @@
 				1DDEBF0619A74B800086F623 /* ABOUT.txt in Resources */,
 				1DDEBEEF19A74B510086F623 /* MainMenu.xib in Resources */,
 				1DDEBF0719A74B800086F623 /* CHANGELOG.txt in Resources */,
+				1D6E628919AC858F004C29BC /* TDLoginController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,15 +342,18 @@
 			files = (
 				1DDEBEEA19A74B510086F623 /* TimeDue.xcdatamodeld in Sources */,
 				1DDEBF5719A77A1E0086F623 /* AFSecurityPolicy.m in Sources */,
+				1D6E628819AC858F004C29BC /* TDLoginController.swift in Sources */,
 				1DDEBF0A19A763330086F623 /* TDAppConstant.swift in Sources */,
 				1DDEBF5419A77A1E0086F623 /* AFHTTPRequestOperationManager.m in Sources */,
 				1DDEBF5819A77A1E0086F623 /* AFURLConnectionOperation.m in Sources */,
 				1DDEBF5319A77A1E0086F623 /* AFHTTPRequestOperation.m in Sources */,
+				1D6E627F19AC7FFE004C29BC /* Alamofire.swift in Sources */,
 				1DDEBEE719A74B510086F623 /* TDAppDelegate.swift in Sources */,
 				1DDEBF5919A77A1E0086F623 /* AFURLRequestSerialization.m in Sources */,
 				1DDEBF5519A77A1E0086F623 /* AFHTTPSessionManager.m in Sources */,
 				1DDEBF5619A77A1E0086F623 /* AFNetworkReachabilityManager.m in Sources */,
 				1DDEBF5A19A77A1E0086F623 /* AFURLResponseSerialization.m in Sources */,
+				1D6E629319AC917F004C29BC /* TDAppController.swift in Sources */,
 				1DDEBF5B19A77A1E0086F623 /* AFURLSessionManager.m in Sources */,
 				1DDEBEE519A74B510086F623 /* main.swift in Sources */,
 			);
@@ -521,6 +547,7 @@
 				1DDEBF0019A74B510086F623 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DDEBF0119A74B510086F623 /* Build configuration list for PBXNativeTarget "TimeDueTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +556,7 @@
 				1DDEBF0319A74B510086F623 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
